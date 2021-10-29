@@ -1,7 +1,7 @@
 # Aula 2 - Imersão Dev Alura
 Projetos desenvolvidos no dia 02 do Imersão Dev 2021 da Alura
 
-##Desafios
+## Desafios
 ### 🌡 Conversor de Temperatura 2.0
 Utilizando o mesmo conceito da versão do primeiro dia que fazia a conversão entre Celsius e Farenheit, dessa vez nos foi proposto adicionar a temperatura Kelvin.
 <br> Nessa versão eu fiz com que a conversão acontecesse instanteamente assim que o usuário insere o valor nos campos, descartando a necessidade de um botão para fazer a conversão, deixando assim a aplicação mais dinâmica.
