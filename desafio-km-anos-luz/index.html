@@ -1,0 +1,68 @@
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="utf-8">
+  <title> Imersão Dev Alura - Desafio Conversor de Tepmperatura</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de KM para Anos-luz</h1>
+    <p class="page-subtitle">
+      Descubra a distância em Anos-luz de acordo com os KM
+    </p>
+
+
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+
+    <div class="main-box">
+
+      <div class="box">
+        <section class="informacoes">
+          <h2>Qual a distância em anos-luz?</h2>
+
+          <p class="introducao"> Se pudessemos viajar na velocidade da luz, qual seria o tempo que levaríamos para viajar entre dois pontos do espaço?
+          </p>
+
+          <p class="explicacao">Como as distâncias no espaço possuem milhares, milhões, bilhões,trilhões e até mais quilometros de distância e para que você não se perca na quantidade de zeros e casas, insira o valor e selecione a unidade equivalente.</p>
+
+          <p>Deixe como "Selecione a unidade" caso o valor não seja tão grande ou caso seja bem específico</p>
+
+        </section>
+
+
+        <input type="number" id="input-valor" placeholder="Aqui você coloca os KM" onkeyup="selectUnidade()">
+
+        <select name="" id="lista-unidade" onchange="selectUnidade()">
+          <option value="default">Selecione a unidade</option>
+          <option value="mil">Mil</option>
+          <option value="mi">Milhões</option>
+          <option value="bi">Bilhões</option>
+          <option value="tri">Trilhões</option>
+        </select>
+
+
+
+
+        <section class="resposta">
+
+          <p id="resultado"></p>
+          <p id="resultado2"></p>
+        </section>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

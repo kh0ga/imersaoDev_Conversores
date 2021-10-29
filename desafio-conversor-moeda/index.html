@@ -1,0 +1,68 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title> Imersão Dev Alura - Conversor de Moedas</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de Moedas</h1>
+    <p class="page-subtitle">
+      Converta o valor de uma moeda para outra.
+    </p>
+
+
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+
+    <div class="main-box">
+
+      <div class="box infos">
+        <p class="desc-moeda-1"></p>
+        <span class="desc-moeda-2"></span>
+        <p class="data-cotacao"> Data da cotação 28 out. 2021</p>
+      </div>
+
+      <div class="box dados">
+
+        <!-- Select Moedas -->
+        <input type="number" id="campoValor1" onkeyup="setValue1()">
+
+        <select id="lista1" class="moeda" onchange="setValue1()">
+          <option value="real">Real brasileiro</option>
+          <option value="dolar" selected="select">Dolar americano</option>
+          <option value="libra">Libra Esterlina</option>
+          <option value="euro">Euro</option>
+        </select>
+
+
+
+        <input type="number" id="campoValor2" onkeyup="setValue2()">
+
+        <select id="lista2" class="moeda" onchange="setValue2()">
+          <option value="real">Real brasileiro</option>
+          <option value="dolar">Dolar americano</option>
+          <option value="libra">Libra esterlina</option>
+          <option value="euro">Euro</option>
+        </select>
+
+        <input type="text" id="campoBitcoin" readonly>
+        <input type="text" id="campoBitcoin2" readonly value="Bitcoin">
+      </div>
+
+      <div id="infoBitcoin">
+        <label id="bitcoin">Bitcoins: </label><span id="bitcoin-resultado"></span>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

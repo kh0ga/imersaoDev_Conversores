@@ -1,0 +1,93 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #202124;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-image: url("img/cash.svg");
+}
+
+.container {
+  background-size: 20vh;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  text-align: center;
+  padding: 20px;
+  height: 90vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 60px 0 10px 0;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.main-box {
+  background-color: #292a2d;
+  margin: 20px auto;
+  color: #e8eaed;
+  padding: 20px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.box {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 380px;
+  margin: 10px auto;
+  text-align: left;
+  /* background-color: #0990ce; */
+}
+
+.dados {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.infos {
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+
+.desc-moeda-2 {
+  display: inline;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+select,
+input {
+  font-size: 16px;
+  color: #bdc1c6;
+  width: 170px;
+  height: 45px;
+  margin: 5px;
+  border-radius: 8px;
+  padding: 10px;
+  border: #bdc1c6 solid 1px;
+  background-color: #292a2d;
+  outline: none;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

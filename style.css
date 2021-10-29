@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #181818;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-top: 50px;
+  color: #fff;
+}
+
+h2::after {
+  content: "";
+  background-color: #fff;
+  height: 3px;
+  width: 100px;
+  display: block;
+  margin: 15px auto;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 80vh;
+}
+
+.bloco {
+  display: flex;
+  justify-content: center;
+}
+
+.nome-desafio {
+  font-size: 20px;
+  color: #0d003b;
+  font-weight: bold;
+}
+
+.desafio {
+  font-size: 20px;
+  color: #0d003b;
+  font-weight: bold;
+  width: 300px;
+  padding: 10px 30px;
+  background-color: #9acd32;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.desafio:hover {
+  color: #9acd32;
+  background: none;
+  border: #9acd32 solid 2px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+  width: 400px;
+  margin: 30px auto;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
